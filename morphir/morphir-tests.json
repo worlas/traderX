@@ -1,0 +1,78 @@
+[
+    [
+        [
+            [
+                [
+                    "traderx"
+                ]
+            ],
+            [
+                [
+                    "morphir"
+                ],
+                [
+                    "rulesengine"
+                ],
+                [
+                    "cancel",
+                    "trade",
+                    "rule"
+                ]
+            ],
+            [
+                "cancel",
+                "trade"
+            ]
+        ],
+        [
+            {
+                "inputs": [
+                    {
+                        "id": "QQQQQ",
+                        "state": [
+                            "processing"
+                        ],
+                        "security": "IBM",
+                        "quantity": 100,
+                        "accountId": "QQQQQQQQQQQQQQQ",
+                        "side": [
+                            "bUY"
+                        ]
+                    }
+                ],
+                "expectedOutput": [
+                    "ok",
+                    true
+                ],
+                "description": ""
+            },
+            {
+                "inputs": [
+                    {
+                        "id": "QQQQQ",
+                        "state": [
+                            "settled"
+                        ],
+                        "security": "IBM",
+                        "quantity": 100,
+                        "accountId": "QQQQQQQQQQQQQQQ",
+                        "side": [
+                            "bUY"
+                        ]
+                    }
+                ],
+                "expectedOutput": [
+                    "err",
+                    [
+                        "cancelTradeError",
+                        {
+                            "code": 600,
+                            "msg": "Trade State must be Processing"
+                        }
+                    ]
+                ],
+                "description": ""
+            }
+        ]
+    ]
+]

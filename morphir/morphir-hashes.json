@@ -1,0 +1,9 @@
+{
+    "src\\Traderx\\Morphir\\Rulesengine\\BuyRule.elm": "48598b9d491a7e22bad3081866896f15",
+    "src\\Traderx\\Morphir\\Rulesengine\\CancelTradeRule.elm": "ca23de346ffe1008bbfeb5049c73052d",
+    "src\\Traderx\\Morphir\\Rulesengine\\SellRule.elm": "d216efc1d6077ee915d07cfa1c072346",
+    "src\\Traderx\\Morphir\\Rulesengine\\Models\\Error.elm": "39b1bc4187ca543450ae9ff378c7300f",
+    "src\\Traderx\\Morphir\\Rulesengine\\Models\\TradeOrder.elm": "99eb5a27b2afdac9cb8b8685bfb38b05",
+    "src\\Traderx\\Morphir\\Rulesengine\\Models\\TradeSide.elm": "2df1baf7425081ca45d61d073fc805c3",
+    "src\\Traderx\\Morphir\\Rulesengine\\Models\\TradeState.elm": "917216ddac2a9fe26b3848f4d0925697"
+}

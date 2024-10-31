@@ -1,0 +1,22 @@
+{
+  "name": "traderx-rulesengine",
+  "version": "1.0.0",
+  "description": "rules for traderx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worlas/traderX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worlas/traderX/issues"
+  },
+  "homepage": "https://github.com/worlas/traderX#readme",
+  "dependencies": {
+    "morphir-elm": "^2.91.0"
+  }
+}
